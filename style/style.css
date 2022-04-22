@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color:#010107;
+    color: #fff;
+    /* margin-bottom: 20vh; */
+}
+
+/* Text Decorations */
+
+h1 {
+    color: white;
+    font-size: 28px;
+}
+
+h2 {
+  color: white;
+  font-size: 23px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Footer */
+
+/* Navigation Bar */
+
+.logo {
+    float: left;
+    margin-left: 1%;
+    position: absolute;
+}
+
+.socials {
+  font-size: 28px;
+  color: #00c8ff;
+}
+
+#bottom {
+    /* position: absolute; */
+    bottom: 0;
+  }
+
+.topnav {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+.topnav a {
+    float: none;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.333s ease;
+}
+
+.topnav a:hover {
+    color: purple;
+    transition: all 0.333s ease;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+/* stuff? */
+
+.logopic {
+
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+
+    width: 50vh;
+    height: auto;
+    
+}
+
+.abouttitle {
+  margin-top: 8vh;
+}
+
+.exesabout {
+  color: #b400ff;
+  font-size: 38px;
+}
+
+.discord {
+  margin-top: 18vh;
+  margin-left: .5vw;
+}
+
+.part1 {
+  float: right;
+  margin-right: 32vw;
+  width: 450px;
+  height: 750px;
+}
+
+.part2 {
+  float: left;
+  margin-left: 32vw;
+}
+
+.part2-1 {
+  width: 350px;
+  height: 250px;
+  margin-bottom: 5vh;
+  background-color: #b400ff;
+  border-radius: 25px;
+}
+
+.part2-2 {
+  width: 350px;
+  height: 250px;
+  margin-bottom: 5vh;
+  background-color: #b400ff;
+  border-radius: 25px;
+}
+
+.part2-3 {
+  width: 350px;
+  height: 250px;
+  background-color: #b400ff;
+  border-radius: 25px;
+}
+
+.rulestitle {
+  margin-top: 8vh;
+}
+
+.rulename {
+  color: white;
+  font-size: 34px;
+}
+
+.error {
+  color: #b400ff;
+}
+
+.gohome {
+  margin-top: 0px; 
+  padding: 1rem; 
+  font-size: 3rem; 
+  border: 2px solid white; 
+  border-radius: 1rem;
+  transition: .25s ease;
+}
+
+.gohome:hover {
+  border: 2px solid #b400ff;
+  color: #b400ff;
+}
+
+/* Team Page */
+
